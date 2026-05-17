@@ -92,3 +92,4 @@ npm start
 ```
 
 Para testar a outra aplicação, mude para o diretório correspondente e repita os comandos.
+
