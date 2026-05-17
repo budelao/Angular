@@ -1,0 +1,26 @@
+<div class="container">
+  <h2>Lista de Estados</h2>
+
+  <div *ngIf="estados$ | async as list; else loading">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let item of list">
+          <td>{{ item.id }}</td>
+          <td>{{ item.nome }}</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <p *ngIf="list.length === 0">Nenhum estado encontrado.</p>
+  </div>
+
+  <ng-template #loading>
+    <div class="spinner">Carregando estados...</div>
+  </ng-template>
+</div>
