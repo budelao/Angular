@@ -5,14 +5,14 @@ Cada projeto é uma aplicação Angular separada, com suporte a SSR e diferentes
 
 ## Estrutura geral
 
-- `teste_01/projeto-basico`
-- `teste_01/projeto-mocks`
-- `teste_01/projeto-domain`
-- `teste_01/projeto-proxy`
+- `projeto-basico`
+- `projeto-mocks`
+- `projeto-domain`
+- `projeto-proxy`
 
 ## Descrição de cada projeto
 
-### `teste_01/projeto-basico`
+### `projeto-basico`
 - Projeto Angular básico gerado pelo Angular CLI.
 - Contém apenas o conjunto principal de arquivos padrão em `src/app/`:
   - `app.config.server.ts`
@@ -29,7 +29,7 @@ Cada projeto é uma aplicação Angular separada, com suporte a SSR e diferentes
   - `npm run build`
   - `npm test`
 
-### `teste_01/projeto-mocks`
+### `projeto-mocks`
 - Projeto Angular com estrutura mais organizada e divisão em módulos de recurso.
 - Possui pastas adicionais em `src/app/`:
   - `assets/mocks/` - dados de mock ou recursos estáticos para testes/desenvolvimento.
@@ -44,7 +44,7 @@ Cada projeto é uma aplicação Angular separada, com suporte a SSR e diferentes
   - `features/` - funcionalidades específicas, como `estados/`.
 - Esse projeto demonstra uma abordagem com separação de responsabilidades entre domínio, dados e recursos.
 
-### `teste_01/projeto-domain`
+### `projeto-domain`
 - Projeto Angular com arquitetura em camadas inspirada em Clean Architecture / DDD.
 - Estrutura de `src/app/`:
   - `application/` - serviço e orquestração de casos de uso.
@@ -59,7 +59,7 @@ Cada projeto é uma aplicação Angular separada, com suporte a SSR e diferentes
     - `pages/`
 - Mostra um projeto mais organizado para aplicações maiores, com separação clara entre domínio, infraestrutura e UI.
 
-### `teste_01/projeto-proxy`
+### `projeto-proxy`
 - Projeto Angular similar ao `projeto-domain`, com arquitetura em camadas e suporte a proxy.
 - Estrutura de `src/app/`:
   - `application/` - serviços de aplicação.
@@ -86,7 +86,7 @@ Cada projeto é uma aplicação Angular separada, com suporte a SSR e diferentes
 Entre no diretório do projeto desejado e execute:
 
 ```bash
-cd teste_01/projeto-proxy
+cd projeto-proxy
 npm install
 npm start
 ```

@@ -21,7 +21,7 @@ Projeto Angular simples gerado pelo Angular CLI com suporte a SSR.
 Instale as dependências e inicie o servidor de desenvolvimento:
 
 ```bash
-cd teste_01/projeto-basico
+cd projeto-basico
 npm install
 npm start
 ```
