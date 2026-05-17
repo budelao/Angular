@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nome</th>
+      <th>Estado ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cidade of cidades | async">
+      <td>{{ cidade.id }}</td>
+      <td>{{ cidade.nome }}</td>
+      <td>{{ cidade.estadoId }}</td>
+    </tr>
+  </tbody>
+</table>
