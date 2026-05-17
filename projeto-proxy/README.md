@@ -17,7 +17,7 @@ Aplicação Angular com arquitetura em camadas e proxy de desenvolvimento config
 ## Como rodar
 
 ```bash
-cd teste_01/projeto-proxy
+cd projeto-proxy
 npm install
 npm start
 ```

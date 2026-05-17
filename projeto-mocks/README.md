@@ -18,7 +18,7 @@ Aplicação Angular com estrutura organizada em camadas e dados de mock.
 ## Como rodar
 
 ```bash
-cd teste_01/projeto-mocks
+cd projeto-mocks
 npm install
 npm start
 ```
