@@ -18,7 +18,7 @@ Aplicação Angular com arquitetura em camadas e biblioteca de domínio clara.
 ## Como rodar
 
 ```bash
-cd teste_01/projeto-domain
+cd projeto-domain
 npm install
 npm start
 ```
